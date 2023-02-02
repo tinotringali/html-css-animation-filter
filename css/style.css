@@ -76,9 +76,21 @@
         margin: 50px 100px;
         width: 400px;
     }
+    .ex-9-img:hover{
+        transition: 3s;
+        filter: grayscale(.3) saturate(.2);
+        border-radius: 30px;
+        transform: scale(1.5);
+    }
     /* esercizio-10 */
     .ex-10-icon {
         font-size: 60px;
+        animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+        0% {
+            transform: rotate(1turn);
+        }
     }
     /* esercizio-11  */
     .ex-11-icon {
