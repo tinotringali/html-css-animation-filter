@@ -13,11 +13,19 @@
         height: 100px;
         background: red;
     }
+    .ex-2-square:active {
+         transition: 2s;
+         width: 100%;
+    }
     .ex-3-square {
         width: 100px;
         height: 100px;
         background: red;
     }
+    .ex-3-square:hover {
+        transition: 2s;
+        border-radius: 100%;
+   }
     .ex-4-square {
       width: 100px;
         height: 100px;
