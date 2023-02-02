@@ -96,6 +96,22 @@
     .ex-11-icon {
         font-size: 60px;
     }
+    .ex-11-icon:hover{
+        animation: spinOrario 1s linear;
+    }
+    @keyframes spinOrario {
+        0% {
+            transform: rotate(0);
+        }
+
+        75% {
+            transform: rotate(300deg);
+        }
+
+        100% {
+            transform: rotate(0);
+        }
+    }
     /* esercizio-12  */
     .ex-12-button, .ex-13-button {
         position: relative;
